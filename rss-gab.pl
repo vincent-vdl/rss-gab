@@ -5,9 +5,6 @@ use DDP;
 use XML::RSS;
 use JSON::XS;
 use REST::Client;
-use 5.010;
-
-say @ARGV;
 
 # API url of the account
 my $GAB = $ARGV[0];
